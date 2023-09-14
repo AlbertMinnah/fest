@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ghana Festival</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #813f09;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+        background-image: url('t1.jpg');
+      color: #c96429;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #d38219;
+      color: #9b8989;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #312929;
+      text-decoration: none;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #8d4509;
+      color: #1b1313;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    #concierge {
+      background-color: #b9642c;
+      padding: 20px;
+    }
+    
+    #concierge h2 {
+      margin-bottom: 10px;
+    }
+    
+    #concierge p {
+      margin-bottom: 20px;
+    }
+    
+    #concierge form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+    }
+    
+    #concierge form label {
+      margin-bottom: 5px;
+    }
+    
+    #concierge form input[type="text"],
+    #concierge form input[type="email"],
+    #concierge form textarea {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    
+    #concierge form input[type="submit"] {
+      background-color: #b1891c;
+      color: #e7dfdf;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ghana Festival</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="indext.html">About</a></li>
+      <li><a href="indext.html">Events</a></li>
+      <li><a href="indext.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Welcome to Ghana Festival!</h2>
+    <p>Experience the vibrant cultures, music, art, and cuisine of Africa at our annual festival.</p>
+    <p>Join us for a celebration of diversity and unity.</p>
+    
+    <section id="concierge">
+      <div class="container">
+        <h2>Book Concierge Services</h2>
+        <p>Make your festival experience even more special by reserving concierge services. Fill out the form below to make a reservation:</p>
+        
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <input type="submit" value="Submit Reservation">
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2022 Ghana Festival. All rights reserved.</p>
+  </footer>
+</body>
+</html>
